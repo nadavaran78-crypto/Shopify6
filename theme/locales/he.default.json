@@ -1,0 +1,10 @@
+{
+  "general": {
+    "welcome": "ברוך הבא"
+  },
+  "sections": {
+    "announcement-bar": {
+      "default_text": "ברוך הבא ל<BRAND_NAME>"
+    }
+  }
+}

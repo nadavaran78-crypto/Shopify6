@@ -1,0 +1,26 @@
+{
+  "sections": {
+    "announcement": {
+      "type": "announcement-bar",
+      "settings": {
+        "text": "Welcome to <BRAND_NAME>"
+      }
+    },
+    "hero": {
+      "type": "hero",
+      "settings": {
+        "heading": "New Arrivals",
+        "subheading": "Shop the latest"
+      }
+    },
+    "ugc": {
+      "type": "ugc-mosaic",
+      "settings": {}
+    }
+  },
+  "order": [
+    "announcement",
+    "hero",
+    "ugc"
+  ]
+}
