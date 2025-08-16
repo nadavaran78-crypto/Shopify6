@@ -1,0 +1,14 @@
+{
+  "ci": {
+    "collect": {
+      "url": ["http://localhost"]
+    },
+    "assert": {
+      "assertions": {
+        "largest-contentful-paint": ["warn", {"maxNumericValue": 2500}],
+        "cumulative-layout-shift": ["warn", {"maxNumericValue": 0.1}],
+        "total-blocking-time": ["warn", {"maxNumericValue": 200}]
+      }
+    }
+  }
+}

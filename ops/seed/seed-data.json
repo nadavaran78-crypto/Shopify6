@@ -1,0 +1,14 @@
+{
+  "products": [
+    {
+      "title": "Sample Tee",
+      "handle": "sample-tee",
+      "variants": [
+        {"option1": "S", "price": "100.00", "sku": "TEE-S"}
+      ]
+    }
+  ],
+  "collections": [
+    {"title": "New", "handle": "new"}
+  ]
+}

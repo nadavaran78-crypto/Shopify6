@@ -1,0 +1,16 @@
+<section>
+  <h2>{{ collection.title }}</h2>
+  {% for product in collection.products %}
+    <div>{{ product.title }}</div>
+  {% endfor %}
+</section>
+
+{% schema %}
+{
+  "name": "Collection",
+  "settings": [],
+  "presets": [
+    {"name": "Collection"}
+  ]
+}
+{% endschema %}

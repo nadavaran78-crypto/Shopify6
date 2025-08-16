@@ -1,0 +1,7 @@
+{
+  "name": "brand-monorepo",
+  "private": true,
+  "scripts": {
+    "test": "npm --prefix app test"
+  }
+}

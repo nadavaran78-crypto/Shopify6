@@ -1,0 +1,20 @@
+<section class="ugc-mosaic">
+  <div class="ugc-items">{{ section.settings.note }}</div>
+</section>
+
+{% schema %}
+{
+  "name": "UGC Mosaic",
+  "settings": [
+    {
+      "type": "text",
+      "id": "note",
+      "label": "Placeholder text",
+      "default": "User generated content goes here"
+    }
+  ],
+  "presets": [
+    {"name": "UGC Mosaic"}
+  ]
+}
+{% endschema %}
